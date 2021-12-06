@@ -10,7 +10,7 @@ import java.util.List;
 public class DataController {
 
     @GetMapping("/pageone")
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "https://cps530-final-fasiehkhan.herokuapp.com/pageone")
     public List<PageData> getAllDataPageOne() {
         return PageDataService.getPageOneData();
     }
